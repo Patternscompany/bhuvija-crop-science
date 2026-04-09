@@ -1,0 +1,1251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Sri Bhuvija Crop Science">
+    <meta name="description"
+        content="Sri Bhuvija Crop Science – Recommended micronutrient solutions for all major crops including Paddy, Cotton, Chilli, Mango, Grapes, Sugarcane and more. Trusted by 25,000+ farmers since 2012.">
+    <meta name="keywords"
+        content="crop nutrition, paddy fertilizer, cotton micronutrients, chilli crop care, mango nutrition, sugarcane fertilizer, bhuvija crop science, agricultural solutions Telangana">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Crops We Serve | Sri Bhuvija Crop Science">
+    <meta property="og:description"
+        content="Find the right micronutrient solution for every crop. Sri Bhuvija Crop Science serves 17+ major crops across Telangana, AP & Karnataka.">
+    <meta property="og:type" content="website">
+    <!-- ======== Page title ============ -->
+    <title>Crops We Serve | Sri Bhuvija Crop Science Pvt. Ltd.</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/logo/favicon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        /* ===== Crops Page Styles ===== */
+        .crops-page-section {
+            padding: 80px 0 60px;
+            background: #f8fcf4;
+        }
+
+        .crops-page-intro {
+            background: linear-gradient(135deg, #2e6b1a 0%, #4a9028 60%, #5a913c 100%);
+            border-radius: 14px;
+            padding: 36px 40px;
+            margin-bottom: 50px;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .crops-page-intro::before {
+            content: '';
+            position: absolute;
+            right: -40px;
+            top: -40px;
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.07);
+        }
+
+        .crops-page-intro::after {
+            content: '';
+            position: absolute;
+            right: 80px;
+            bottom: -60px;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .crops-page-intro h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .crops-page-intro p {
+            font-size: 1.05rem;
+            opacity: 0.9;
+            margin-bottom: 0;
+            max-width: 700px;
+        }
+
+        .trust-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .trust-badge {
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 30px;
+            padding: 6px 16px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* Section heading */
+        .crops-section-heading {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .crops-section-heading h2 {
+            font-size: 1.9rem;
+            font-weight: 700;
+            color: #1a3a10;
+            margin-bottom: 10px;
+        }
+
+        .crops-section-heading p {
+            color: #666;
+            font-size: 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section-divider {
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #5a913c, #a8d880);
+            border-radius: 2px;
+            margin: 14px auto 0;
+        }
+
+        /* Crop Cards Grid */
+        .crop-cards-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+
+        .crop-card {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+            border: 1px solid #e8f5d8;
+            transition: all 0.35s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .crop-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 40px rgba(90, 145, 60, 0.18);
+            border-color: #5a913c;
+        }
+
+        .crop-card-header {
+            padding: 28px 24px 18px;
+            text-align: center;
+            background: linear-gradient(135deg, #f0f9e8 0%, #eaf5d8 100%);
+            border-bottom: 1px solid #e0eecb;
+        }
+
+        .crop-icon-circle {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #5a913c, #7cb856);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 14px;
+            font-size: 2rem;
+            box-shadow: 0 6px 18px rgba(90, 145, 60, 0.3);
+        }
+
+        .crop-card-header h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #1a3a10;
+            margin-bottom: 4px;
+        }
+
+        .crop-card-header .crop-type-tag {
+            display: inline-block;
+            background: #5a913c;
+            color: #fff;
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .crop-card-body {
+            padding: 18px 20px;
+            flex-grow: 1;
+        }
+
+        .crop-card-body p {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.65;
+            margin-bottom: 12px;
+        }
+
+        .crop-deficiency-title {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: #c46a00;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .crop-deficiency-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 14px;
+        }
+
+        .crop-deficiency-list li {
+            font-size: 0.82rem;
+            color: #666;
+            padding: 3px 0 3px 18px;
+            position: relative;
+        }
+
+        .crop-deficiency-list li::before {
+            content: '⚠';
+            position: absolute;
+            left: 0;
+            font-size: 0.7rem;
+            color: #e07b00;
+        }
+
+        .crop-products-title {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: #2e6b1a;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .crop-product-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .crop-product-tag {
+            background: #eaf5d8;
+            border: 1px solid #c4dfa5;
+            border-radius: 16px;
+            padding: 3px 10px;
+            font-size: 0.75rem;
+            color: #3b6e23;
+            font-weight: 600;
+        }
+
+        .crop-card-footer {
+            padding: 14px 20px;
+            border-top: 1px solid #f0f0f0;
+            text-align: center;
+        }
+
+        .crop-card-footer a {
+            color: #5a913c;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: gap 0.2s;
+        }
+
+        .crop-card-footer a:hover {
+            color: #2e6b1a;
+            gap: 10px;
+        }
+
+        /* CTA Banner */
+        .crops-cta-box {
+            background: linear-gradient(135deg, #1a3a10 0%, #2e6b1a 50%, #5a913c 100%);
+            border-radius: 16px;
+            padding: 50px 40px;
+            text-align: center;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        .crops-cta-box h3 {
+            font-size: 1.7rem;
+            font-weight: 700;
+            margin-bottom: 14px;
+        }
+
+        .crops-cta-box p {
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 1rem;
+            margin-bottom: 28px;
+            max-width: 580px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Crop categories filter bar */
+        .crop-filter-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 36px;
+        }
+
+        .crop-filter-btn {
+            background: #fff;
+            border: 2px solid #d0e8b8;
+            border-radius: 30px;
+            padding: 8px 22px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: #3b6e23;
+            cursor: pointer;
+            transition: all 0.25s ease;
+        }
+
+        .crop-filter-btn:hover,
+        .crop-filter-btn.active {
+            background: #5a913c;
+            border-color: #5a913c;
+            color: #fff;
+        }
+
+        /* Responsive */
+        @media (max-width: 1199px) {
+            .crop-cards-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 767px) {
+            .crop-cards-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+            }
+
+            .crops-page-intro {
+                padding: 28px 24px;
+            }
+
+            .crops-page-intro h2 {
+                font-size: 1.4rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .crop-cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+            <div class="spinner"></div>
+            <p class="text-center">Loading</p>
+        </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back To Top -->
+    <button id="back-top" class="back-to-top">
+        <i class="far fa-arrow-up"></i>
+    </button>
+
+    <!-- MouseCursor -->
+    <div class="mouseCursor cursor-outer"></div>
+    <div class="mouseCursor cursor-inner"></div>
+
+    <!-- Offcanvas Area -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="index.html">
+                                <img src="assets/img/logo/bhuvija.png" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                    <h3 class="offcanvas-title">Bhuvija Family</h3>
+                    <p>Sri Bhuvija Crop Science Pvt. Ltd. was incorporated in Hyderabad in 2012, specializing in quality
+                        micronutrient fertilizers and plant nutrition products.</p>
+                    <div class="mobile-menu fix mt-15"></div>
+                    <div class="social-icon d-flex align-items-center">
+                        <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+                        <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+                        <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a>
+                        <a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="offcanvas__contact">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <div class="icon"><i class="far fa-phone-alt"></i></div>
+                                <div class="content">
+                                    <p>Call Us</p>
+                                    <h4><a href="tel:+919766181369">+919766181369</a></h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fal fa-envelope"></i></div>
+                                <div class="content">
+                                    <p>Send Email</p>
+                                    <h4><a href="mailto:sribhuvijacrop@gmail.com">sribhuvijacrop@gmail.com</a></h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fal fa-map-marker-alt"></i></div>
+                                <div class="content">
+                                    <p>Location</p>
+                                    <h4>H. No. 89, Subhodaya Colony, Auto Nagar,<br>Vanasthalipuram, Telangana, 500070
+                                    </h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="contact.html" class="theme-btn">Let's Talk <i class="far fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Header Section -->
+    <header id="header-sticky" class="header-1">
+        <div class="container">
+            <div class="mega-menu-wrapper">
+                <div class="header-main">
+                    <a href="index.html" class="header-logo">
+                        <img src="assets/img/logo/bhuvija.png" alt="img">
+                    </a>
+                    <div class="mean__menu-wrapper">
+                        <div class="main-menu">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li class="menu-thumb">
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li class="active d-xl-none">
+                                        <a href="index.html" class="border-none">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="products.html">Products &amp; Services</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="crops.html">Crops</a>
+                                    </li>
+                                    <li>
+                                        <a href="best-micronutrients-for-plants.html">Micronutrients</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="header-right d-flex justify-content-end align-items-center">
+                        <a href="contact.html" class="theme-btn">
+                            Let's Talk <i class="far fa-arrow-right"></i>
+                        </a>
+                        <div class="header__hamburger my-auto d-lg-none">
+                            <div class="sidebar__toggle">
+                                <div class="header-bar">
+                                    <span></span><span></span><span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb Section -->
+    <section class="breadcrumb-wrapper bg-cover fix" style="background-image: url(assets/img/hero/hero-img1.png)">
+        <div class="shape-1 float-bob-y">
+            <img src="assets/img/inner-page/shape-1.png" alt="img">
+        </div>
+        <div class="shape-2 float-bob-x">
+            <img src="assets/img/inner-page/shape-2.png" alt="img">
+        </div>
+        <div class="container">
+            <div class="page-heading">
+                <ul class="breadcrumb-list wow fadeInUp">
+                    <li>Home</li>
+                    <li>//</li>
+                    <li>Crops</li>
+                </ul>
+                <h1 class="breadcrumb-title text-anim">Crops We Serve</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crops Section -->
+    <section class="crops-page-section fix">
+        <div class="container">
+
+            <!-- Intro Banner -->
+            <div class="crops-page-intro wow fadeInUp">
+                <h2>🌾 Crop-Specific Nutrition Solutions by Sri Bhuvija</h2>
+                <p>Every crop has unique nutritional needs at different growth stages. Sri Bhuvija Crop Science provides
+                    scientifically formulated micronutrient solutions for 17+ major crops across Telangana, Andhra
+                    Pradesh, and Karnataka — trusted by 25,000+ farmers since 2012.</p>
+                <div class="trust-badges">
+                    <span class="trust-badge"><i class="fas fa-certificate"></i> ISO 9001:2015 Certified</span>
+                    <span class="trust-badge"><i class="fas fa-users"></i> 25,000+ Farmers</span>
+                    <span class="trust-badge"><i class="fas fa-flask"></i> 60+ Products</span>
+                    <span class="trust-badge"><i class="fas fa-map-marker-alt"></i> TS / AP / Karnataka</span>
+                </div>
+            </div>
+
+            <!-- Filter Bar -->
+            <div class="crop-filter-bar wow fadeInUp">
+                <button class="crop-filter-btn active" onclick="filterCrops('all', this)">All Crops</button>
+                <button class="crop-filter-btn" onclick="filterCrops('cereal', this)">Cereals &amp; Pulses</button>
+                <button class="crop-filter-btn" onclick="filterCrops('vegetable', this)">Vegetables</button>
+                <button class="crop-filter-btn" onclick="filterCrops('fruit', this)">Fruits &amp; Horticulture</button>
+                <button class="crop-filter-btn" onclick="filterCrops('fiber', this)">Fiber &amp; Cash Crops</button>
+            </div>
+
+            <!-- Section Heading -->
+            <div class="crops-section-heading wow fadeInUp">
+                <h2>All Crops &amp; Recommended Products</h2>
+                <p>Click on any crop to explore its specific nutritional requirements and the Bhuvija products best
+                    suited for it.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <!-- Crop Cards Grid -->
+            <div class="crop-cards-grid" id="cropGrid">
+
+                <!-- 1. Paddy -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".1s" data-category="cereal">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🌾</div>
+                        <h3>Paddy Crop</h3>
+                        <span class="crop-type-tag">Cereal</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Rice (paddy) is the primary food crop of Telangana and AP. It demands high zinc and iron for
+                            tillering, chlorophyll production, and grain filling.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Zinc deficiency (Khaira disease)</li>
+                            <li>Iron chlorosis (yellowing)</li>
+                            <li>Manganese deficiency</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">CERAL+</span>
+                            <span class="crop-product-tag">SUPER ZINC-33%</span>
+                            <span class="crop-product-tag">MIRACLE</span>
+                            <span class="crop-product-tag">BLASTER</span>
+                            <span class="crop-product-tag">HOPPER</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 2. Cotton -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".15s" data-category="fiber">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🪴</div>
+                        <h3>Cotton</h3>
+                        <span class="crop-type-tag">Fiber Crop</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Cotton is a major cash crop requiring balanced micronutrients for boll development, fiber
+                            quality, and resistance to pest pressure.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Zinc deficiency (leaf curl)</li>
+                            <li>Magnesium (red leaf disease)</li>
+                            <li>Boron (boll drop)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">SUPER ZINC-33%</span>
+                            <span class="crop-product-tag">B-MAG</span>
+                            <span class="crop-product-tag">BORON-20%</span>
+                            <span class="crop-product-tag">DROP</span>
+                            <span class="crop-product-tag">STILL</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 3. Chilli -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".2s" data-category="vegetable">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🌶️</div>
+                        <h3>Chilli Crop</h3>
+                        <span class="crop-type-tag">Vegetable / Spice</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Chilli requires adequate boron for fruit set and uniform colour development. Iron and zinc
+                            help prevent powdery mildew and ensure healthy foliage.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Boron (fruit drop, uneven set)</li>
+                            <li>Zinc (small crumpled leaves)</li>
+                            <li>Iron (interveinal chlorosis)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">MIRACLE</span>
+                            <span class="crop-product-tag">BORON-20%</span>
+                            <span class="crop-product-tag">HIGH RICH-F2</span>
+                            <span class="crop-product-tag">ELDER</span>
+                            <span class="crop-product-tag">BJ PLUS+</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 4. Tomato -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".25s" data-category="vegetable">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🍅</div>
+                        <h3>Tomato Crop</h3>
+                        <span class="crop-type-tag">Vegetable</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Tomatoes are heavy feeders of calcium, boron, and trace elements. Proper micronutrition helps
+                            prevent blossom end rot and ensures firm, marketable fruits.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Boron (flower & fruit drop)</li>
+                            <li>Manganese (leaf mottle)</li>
+                            <li>Iron (top leaf yellowing)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">MIRACLE</span>
+                            <span class="crop-product-tag">BORON-20%</span>
+                            <span class="crop-product-tag">GEM</span>
+                            <span class="crop-product-tag">LOGIN</span>
+                            <span class="crop-product-tag">DEAL</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 5. Mango -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".3s" data-category="fruit">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🥭</div>
+                        <h3>Mango</h3>
+                        <span class="crop-type-tag">Horticulture</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Mango orchards benefit from boron and zinc to promote flowering, reduce fruit drop, and
+                            improve fruit size, colour, and shelf life.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Boron (poor fruit set)</li>
+                            <li>Zinc (little leaf, die-back)</li>
+                            <li>Mangu mite (Phyllocoptes)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">BORON-20%</span>
+                            <span class="crop-product-tag">Zn-OZONE+</span>
+                            <span class="crop-product-tag">MANGUCARE</span>
+                            <span class="crop-product-tag">LOGIN</span>
+                            <span class="crop-product-tag">BIOTOX</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 6. Grapes -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".35s" data-category="fruit">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🍇</div>
+                        <h3>Grapes</h3>
+                        <span class="crop-type-tag">Horticulture</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Grapevines demand precise micronutrient management during flowering and bunch development for
+                            uniform berry sizing and high Brix values.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Zinc (small uneven berries)</li>
+                            <li>Boron (shatter & illbum)</li>
+                            <li>Manganese (leaf intervenial)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">Zn-OZONE+</span>
+                            <span class="crop-product-tag">BORON-20%</span>
+                            <span class="crop-product-tag">GEM</span>
+                            <span class="crop-product-tag">SEAMASX</span>
+                            <span class="crop-product-tag">DEAL</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 7. Groundnut -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".4s" data-category="cereal">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🥜</div>
+                        <h3>Groundnut</h3>
+                        <span class="crop-type-tag">Oilseed / Pulse</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Groundnut requires calcium and zinc for pegging, pod filling, and nut quality. Iron is
+                            critical for nitrogen fixation in root nodules.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Zinc (poor peg formation)</li>
+                            <li>Iron (chlorosis on young leaves)</li>
+                            <li>Boron (hollow heart)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">CERAL+</span>
+                            <span class="crop-product-tag">SUPER ZINC-33%</span>
+                            <span class="crop-product-tag">MICRO SET</span>
+                            <span class="crop-product-tag">HIGH RICH-F2</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 8. Sugarcane -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".45s" data-category="fiber">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🎋</div>
+                        <h3>Sugarcane</h3>
+                        <span class="crop-type-tag">Cash Crop</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Sugarcane is a long-duration crop that benefits from manganese and zinc for enzyme activation
+                            and high sugar content (Brix) in stalks.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Zinc (stunted spindle leaf)</li>
+                            <li>Iron (interveinal yellowing)</li>
+                            <li>Manganese (grey streak)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">GRAVITY</span>
+                            <span class="crop-product-tag">PRO-ZINC</span>
+                            <span class="crop-product-tag">PRIME-BG</span>
+                            <span class="crop-product-tag">HUMAXIN</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 9. Maize -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".5s" data-category="cereal">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🌽</div>
+                        <h3>Maize</h3>
+                        <span class="crop-type-tag">Cereal</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Maize is highly sensitive to zinc deficiency, causing white band syndrome. Iron and manganese
+                            are needed for photosynthesis and cob filling.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Zinc (white band on leaves)</li>
+                            <li>Iron (interveinal chlorosis)</li>
+                            <li>Manganese (pale leaf streaks)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">SUPER ZINC-33%</span>
+                            <span class="crop-product-tag">ZINC-CARE</span>
+                            <span class="crop-product-tag">MIRACLE</span>
+                            <span class="crop-product-tag">GRAVITY</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 10. Pomegranate -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".55s" data-category="fruit">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🍎</div>
+                        <h3>Pomegranate</h3>
+                        <span class="crop-type-tag">Horticulture</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Pomegranate needs boron and zinc for fruit cracking prevention, uniform ripening, and deep
+                            red arils. Bacterial blight management is critical.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Boron (fruit cracking)</li>
+                            <li>Zinc (leaf curl, die-back)</li>
+                            <li>Iron (chlorosis in new growth)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">BORON-20%</span>
+                            <span class="crop-product-tag">HIGH RICH-F2</span>
+                            <span class="crop-product-tag">ELDER</span>
+                            <span class="crop-product-tag">GEM</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 11. Wheat -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".6s" data-category="cereal">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🌿</div>
+                        <h3>Wheat</h3>
+                        <span class="crop-type-tag">Cereal</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Wheat benefits from manganese for photosynthesis and zinc for grain protein content. Copper
+                            helps strengthen stems and reduce lodging.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Manganese (speckled yellowing)</li>
+                            <li>Zinc (poor tillering)</li>
+                            <li>Copper (stem lodging)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">CERAL+</span>
+                            <span class="crop-product-tag">MIRACLE</span>
+                            <span class="crop-product-tag">HIGH RICH-F2</span>
+                            <span class="crop-product-tag">HUMAXIN</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 12. Black Gram -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".65s" data-category="cereal">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🫘</div>
+                        <h3>Black Gram</h3>
+                        <span class="crop-type-tag">Pulse / Legume</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Black gram (urad dal) needs molybdenum for nitrogen fixation in root nodules and boron for
+                            proper pod set and seed development.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Molybdenum (poor nodulation)</li>
+                            <li>Boron (flower & pod drop)</li>
+                            <li>Zinc (stunted plants)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">MIRACLE</span>
+                            <span class="crop-product-tag">BORON-20%</span>
+                            <span class="crop-product-tag">ZINC-CARE</span>
+                            <span class="crop-product-tag">GEM</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 13. Watermelon -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".7s" data-category="vegetable">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🍉</div>
+                        <h3>Watermelon</h3>
+                        <span class="crop-type-tag">Vegetable / Fruit</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Watermelon requires boron for pollination, zinc for vine development, and manganese for
+                            photosynthesis during the fruit development period.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Boron (poor fruit set)</li>
+                            <li>Zinc (vine stunting)</li>
+                            <li>Iron (leaf yellowing)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">HIGH RICH-F2</span>
+                            <span class="crop-product-tag">BORON-20%</span>
+                            <span class="crop-product-tag">MIRACLE</span>
+                            <span class="crop-product-tag">BESTAR</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 14. Citrus -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".75s" data-category="fruit">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🍊</div>
+                        <h3>Citrus Crop</h3>
+                        <span class="crop-type-tag">Horticulture</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Citrus orchards are prone to zinc and iron deficiencies showing as mottled leaves. Boron
+                            management ensures good fruit size and peel quality.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Zinc (mottled leaves)</li>
+                            <li>Iron (lime-induced chlorosis)</li>
+                            <li>Manganese (interveinal)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">PRO-ZINC (Citrus)</span>
+                            <span class="crop-product-tag">BJ PLUS+</span>
+                            <span class="crop-product-tag">MANGUCARE</span>
+                            <span class="crop-product-tag">LOGIN</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 15. Cashew Nut -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".8s" data-category="fruit">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🌰</div>
+                        <h3>Cashew Nut</h3>
+                        <span class="crop-type-tag">Tree Crop</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Cashew benefits from boron and zinc for panicle health, honey bee attraction, and nut
+                            development. Copper helps control anthracnose disease.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Boron (die-back, poor nut set)</li>
+                            <li>Zinc (reduced panicles)</li>
+                            <li>Copper (anthracnose prone)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">BORON-20%</span>
+                            <span class="crop-product-tag">Zn-OZONE+</span>
+                            <span class="crop-product-tag">ELDER</span>
+                            <span class="crop-product-tag">BIOTOX</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 16. Potato -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".85s" data-category="vegetable">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🥔</div>
+                        <h3>Potato</h3>
+                        <span class="crop-type-tag">Vegetable</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Potato tuber development needs adequate manganese, boron, and zinc. Boron prevents internal
+                            browning while zinc improves starch content.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Boron (internal brown rot)</li>
+                            <li>Manganese (speckled leaves)</li>
+                            <li>Zinc (small tubers)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">HIGH RICH-F2</span>
+                            <span class="crop-product-tag">BORON-20%</span>
+                            <span class="crop-product-tag">PRO-ZINC</span>
+                            <span class="crop-product-tag">ELDER</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 17. Onion -->
+                <div class="crop-card wow fadeInUp" data-wow-delay=".9s" data-category="vegetable">
+                    <div class="crop-card-header">
+                        <div class="crop-icon-circle">🧅</div>
+                        <h3>Onion</h3>
+                        <span class="crop-type-tag">Vegetable</span>
+                    </div>
+                    <div class="crop-card-body">
+                        <p>Onion bulb size, pungency, and shelf life depend on sulphur, zinc, and boron nutrition.
+                            Copper helps in disease suppression and firm bulb formation.</p>
+                        <div class="crop-deficiency-title">Common Deficiencies</div>
+                        <ul class="crop-deficiency-list">
+                            <li>Zinc (twisted, stunted leaves)</li>
+                            <li>Boron (distorted neck)</li>
+                            <li>Manganese (light green leaves)</li>
+                        </ul>
+                        <div class="crop-products-title">Recommended Products</div>
+                        <div class="crop-product-tags">
+                            <span class="crop-product-tag">MIRACLE</span>
+                            <span class="crop-product-tag">ZINC-CARE</span>
+                            <span class="crop-product-tag">BORON-20%</span>
+                            <span class="crop-product-tag">GEM</span>
+                        </div>
+                    </div>
+                    <div class="crop-card-footer">
+                        <a href="products.html">View Products <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End Crop Cards Grid -->
+
+            <!-- CTA Box -->
+            <div class="crops-cta-box wow fadeInUp">
+                <h3>Not Sure Which Product Your Crop Needs?</h3>
+                <p>Our expert agronomists will analyse your soil and crop conditions and recommend the perfect
+                    micronutrient solution — completely free of charge.</p>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                    <a href="contact.html" class="theme-btn">
+                        Get Free Consultation <i class="far fa-arrow-right"></i>
+                    </a>
+                    <a href="products.html" class="theme-btn" style="background:#fff; color:#2e6b1a;">
+                        View All Products <i class="far fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section-4 section-padding section-bg pb-0 pt-0">
+        <div class="shape-1 d-none d-xxl-block float-bob-x">
+            <img src="assets/img/home-4/footer-shape-1.png" alt="img">
+        </div>
+        <div class="shape-2 d-none d-xxl-block float-bob-y">
+            <img src="assets/img/home-4/footer-shape-2.png" alt="img">
+        </div>
+        <div class="container">
+            <div class="footer-widget-wrapper-4">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-8 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="footer-widget-items">
+                            <div class="widget-head">
+                                <a href="index.html" class="footer-logo">
+                                    <img src="assets/img/logo/bhuvija.png" alt="img">
+                                </a>
+                            </div>
+                            <div class="footer-content">
+                                <p>Sri Bhuvija Crop Science Pvt. Ltd. is committed to empowering farmers through
+                                    innovative plant nutrition and sustainable agricultural solutions.</p>
+                                <h3>Follow Us:</h3>
+                                <div class="social-icon">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="footer-widget-items">
+                            <div class="widget-head">
+                                <h5>Useful Link</h5>
+                            </div>
+                            <ul class="list-area">
+                                <li><a href="about.html"><i class="far fa-chevron-double-right"></i> About Company</a>
+                                </li>
+                                <li><a href="products.html"><i class="far fa-chevron-double-right"></i> Our Products</a>
+                                </li>
+                                <li><a href="crops.html"><i class="far fa-chevron-double-right"></i> Crops We Serve</a>
+                                </li>
+                                <li><a href="contact.html"><i class="far fa-chevron-double-right"></i> Contact Us</a>
+                                </li>
+                                <li><a href="contact.html"><i class="far fa-chevron-double-right"></i> 24/7 Support</a>
+                                </li>
+                                <li><a href="gallery.html"><i class="far fa-chevron-double-right"></i> Gallery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="footer-widget-items">
+                            <div class="widget-head">
+                                <h5>Our Services</h5>
+                            </div>
+                            <ul class="list-area">
+                                <li><a href="#"><i class="far fa-chevron-double-right"></i> Micronutrients</a></li>
+                                <li><a href="#"><i class="far fa-chevron-double-right"></i> Soil Applications</a></li>
+                                <li><a href="#"><i class="far fa-chevron-double-right"></i> Growth Promoters</a></li>
+                                <li><a href="#"><i class="far fa-chevron-double-right"></i> Bio-Fungicides</a></li>
+                                <li><a href="#"><i class="far fa-chevron-double-right"></i> Organic Products</a></li>
+                                <li><a href="#"><i class="far fa-chevron-double-right"></i> Secondary Nutrients</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".8s">
+                        <div class="footer-widget-items">
+                            <div class="widget-head">
+                                <h5>Contact Us</h5>
+                            </div>
+                            <ul class="contact-list">
+                                <li>
+                                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                                    <div class="content">
+                                        <h5>Email us:</h5>
+                                        <p><a href="mailto:sribhuvijacrop@gmail.com">sribhuvijacrop@gmail.com</a></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                                    <div class="content">
+                                        <h5>Location:</h5>
+                                        <p>Vanasthalipuram, Telangana, 500070</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                                    <div class="content">
+                                        <h5>Phone:</h5>
+                                        <p><a href="tel:+919766181369">+919766181369</a></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-wrapper">
+                    <p class="text-1 wow fadeInUp">&copy; 2026 Sri Bhuvija Crop Science. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/splitType.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        // Crop Filter Functionality
+        function filterCrops(category, btn) {
+            // Update active button
+            document.querySelectorAll('.crop-filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            // Filter cards
+            const cards = document.querySelectorAll('.crop-card');
+            cards.forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.style.display = 'flex';
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 50);
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            // Fix grid for filtered cards
+            const grid = document.getElementById('cropGrid');
+            const visibleCards = [...cards].filter(c => c.style.display !== 'none');
+            if (visibleCards.length === 0) {
+                grid.style.display = 'none';
+            } else {
+                grid.style.display = 'grid';
+            }
+        }
+    </script>
+</body>
+
+</html>
