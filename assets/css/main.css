@@ -4012,6 +4012,16 @@ p {
   margin-top: 20px;
 }
 
+.hero-1 .hero-content .mobile-h {
+  font-size: 3rem;
+}
+
+@media(max-width:992px) {
+  .hero-1 .hero-content .mobile-h {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 767px) {
   .hero-1 {
     margin-left: 0;
@@ -4021,6 +4031,7 @@ p {
 
 .hero-1 .banner-active {
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .hero-1 .array-button {
@@ -4073,6 +4084,7 @@ p {
   padding: 80px 0 50px;
   border-radius: 20px;
   position: relative;
+  height: 100%;
 }
 
 .hero-1 .bg-layer {
@@ -4083,6 +4095,7 @@ p {
   height: 100%;
   background-color: rgb(99 171 82 / 48%);
   opacity: 1;
+  border-radius: 20px;
 }
 
 @media (max-width: 767px) {

@@ -125,6 +125,7 @@
                 loop: true,
                 slidesPerView: 1,
                 effect:'fade',
+                autoHeight: true,
                 autoplay: {
                     delay: 3000,         
                     disableOnInteraction: false,
