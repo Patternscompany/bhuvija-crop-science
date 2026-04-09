@@ -1469,6 +1469,10 @@ p {
   color: var(--theme-color) !important;
 }
 
+.header-main .main-menu ul li.active a {
+  color: var(--theme-color) !important;
+}
+
 .header-main .main-menu ul li .submenu {
   position: absolute;
   top: 100%;
