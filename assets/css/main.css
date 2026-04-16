@@ -17650,6 +17650,10 @@ p.sticky-label {
   font-size: 18px;
 }
 
+.footer-bottom .footer-bottom-wrapper a {
+  color: #ff9800;
+}
+
 .footer-bottom .footer-bottom-wrapper .social-icon a:hover {
   color: var(--theme-color-2);
 }
